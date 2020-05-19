@@ -7,10 +7,5 @@ def read_from_hash(hash, key)
 end
 
 def update_counting_hash(hash, key)
-if hash[key]
- shipping_manifest["top hat"] += 1
-else
- puts "Key not found!"
-end
-
+hash = [hash] += 1 
 end
